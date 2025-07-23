@@ -10,11 +10,11 @@ from openai import OpenAI
 from fastapi import FastAPI
 from pydantic import BaseModel
 from fastapi import APIRouter, Request
-from backend.routes.emotion_route import router as emotion_router
-from backend.emotion_analyzer import analyze_emotions
-from backend.routes import summary_route
-from backend.routes.chord_router import router as chord_router
-from backend.routes.artist_info_router import router as artist_info_router
+from routes.emotion_route import router as emotion_router
+from emotion_analyzer import analyze_emotions
+from routes import summary_route
+from routes.chord_router import router as chord_router
+from routes.artist_info_router import router as artist_info_router
 
 
 

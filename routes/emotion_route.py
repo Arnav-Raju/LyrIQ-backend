@@ -2,8 +2,8 @@
 import json
 from fastapi import APIRouter
 from pydantic import BaseModel
-from backend.emotion_analyzer import analyze_emotions
-from backend.schemas.emotion_request import EmotionRequest
+from emotion_analyzer import analyze_emotions
+from schemas.emotion_request import EmotionRequest
 
 router = APIRouter()
 

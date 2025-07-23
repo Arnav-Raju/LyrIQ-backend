@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
-from backend.lyrics_explainer import get_song_data
-from backend.emotion_analyzer import analyze_emotions
+from lyrics_explainer import get_song_data
+from emotion_analyzer import analyze_emotions
 from openai import OpenAI
 
 router = APIRouter()
